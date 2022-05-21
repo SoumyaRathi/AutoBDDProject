@@ -1,0 +1,18 @@
+2022-05-12 14:44:01,424 INFO framework.DriverManager [main] framework.DriverManager.setUpDriver(DriverManager.java:55) ******** Launching browser*********
+2022-05-12 14:44:01,450 INFO stepDefinitions.LoginStepDefs [main] stepDefinitions.LoginStepDefs.i_am_in_login_page(LoginStepDefs.java:43) ******** Opening URL*********
+2022-05-12 14:44:02,601 INFO stepDefinitions.LoginStepDefs [main] stepDefinitions.LoginStepDefs.user_login_in_application_with_userName_and_password(LoginStepDefs.java:53) ******** Give login details*********
+2022-05-12 14:44:03,277 INFO stepDefinitions.LoginStepDefs [main] stepDefinitions.LoginStepDefs.click_on_Login_btn(LoginStepDefs.java:60) ********click Login button *********
+2022-05-12 14:44:03,625 INFO stepDefinitions.LoginStepDefs [main] stepDefinitions.LoginStepDefs.verify_that_user_is_succesfully_logged_in(LoginStepDefs.java:66) ********Verify whether user logged in or not *********
+2022-05-12 14:44:05,680 INFO stepDefinitions.LoginStepDefs [main] stepDefinitions.LoginStepDefs.verify_that_user_is_succesfully_logged_in(LoginStepDefs.java:68) ********User logged in *********
+2022-05-12 14:45:05,043 INFO framework.DriverManager [main] framework.DriverManager.setUpDriver(DriverManager.java:55) ******** Launching browser*********
+2022-05-12 14:45:05,059 INFO stepDefinitions.LoginStepDefs [main] stepDefinitions.LoginStepDefs.i_am_in_login_page(LoginStepDefs.java:43) ******** Opening URL*********
+2022-05-12 14:45:06,106 INFO stepDefinitions.LoginStepDefs [main] stepDefinitions.LoginStepDefs.user_login_in_application_with_userName_and_password(LoginStepDefs.java:53) ******** Give login details*********
+2022-05-12 14:45:06,789 INFO stepDefinitions.LoginStepDefs [main] stepDefinitions.LoginStepDefs.click_on_Login_btn(LoginStepDefs.java:60) ********click Login button *********
+2022-05-12 14:45:07,263 INFO stepDefinitions.LoginStepDefs [main] stepDefinitions.LoginStepDefs.verify_that_user_is_succesfully_logged_in(LoginStepDefs.java:66) ********Verify whether user logged in or not *********
+2022-05-12 14:45:09,312 INFO stepDefinitions.LoginStepDefs [main] stepDefinitions.LoginStepDefs.verify_that_user_is_succesfully_logged_in(LoginStepDefs.java:68) ********User logged in *********
+2022-05-12 14:45:34,945 INFO framework.DriverManager [main] framework.DriverManager.setUpDriver(DriverManager.java:55) ******** Launching browser*********
+2022-05-12 14:45:34,968 INFO stepDefinitions.LoginStepDefs [main] stepDefinitions.LoginStepDefs.i_am_in_login_page(LoginStepDefs.java:43) ******** Opening URL*********
+2022-05-12 14:45:36,061 INFO stepDefinitions.LoginStepDefs [main] stepDefinitions.LoginStepDefs.user_login_in_application_with_userName_and_password(LoginStepDefs.java:53) ******** Give login details*********
+2022-05-12 14:45:36,715 INFO stepDefinitions.LoginStepDefs [main] stepDefinitions.LoginStepDefs.click_on_Login_btn(LoginStepDefs.java:60) ********click Login button *********
+2022-05-12 14:45:37,084 INFO stepDefinitions.LoginStepDefs [main] stepDefinitions.LoginStepDefs.verify_that_user_is_succesfully_logged_in(LoginStepDefs.java:66) ********Verify whether user logged in or not *********
+2022-05-12 14:45:39,141 INFO stepDefinitions.LoginStepDefs [main] stepDefinitions.LoginStepDefs.verify_that_user_is_succesfully_logged_in(LoginStepDefs.java:68) ********User logged in *********
