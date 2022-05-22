@@ -1,0 +1,41 @@
+
+pipeline{
+
+agent any
+stages{
+
+stage('checkout'){
+	steps{
+		echo 'Checking out'
+		git 'https://github.com/SoumyaRathi/AutoBDDProject.git'
+	}
+}
+
+stage('build'){
+	steps{
+		echo 'Building out'
+		script{
+			env.PATH='C:/apache-maven-3.8.5/bin;c:\\Windows\\System32'
+		}
+		bat label: '', script: 'mvn package'
+	}
+}
+
+stage('archiving'){
+	steps{
+		echo 'Archiving'
+		archiveArtifacts 'target/*.jar'
+	}
+}
+
+}
+
+post {
+	always {
+		echo 'Pipeline Finished'
+		step([$class: 'JUnitResultArchiver', 'testResults: '**/target/surefire-reports/Test*.xml'])
+
+	}
+
+}
+}
