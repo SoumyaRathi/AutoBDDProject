@@ -8,11 +8,13 @@ stage('checkout'){
 	steps{
 		echo 'Checking out'
 	}
-}stage('test'){
+}
+stage('test'){
 	steps{
 		echo 'Testing'
 	}
-}stage('archiving'){
+}
+stage('archiving'){
 	steps{
 		echo 'Archiving'
 	}
