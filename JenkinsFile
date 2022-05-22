@@ -1,9 +1,9 @@
 node('built-in'){
-stage(checkout){
+stage('checkout'){
 	echo 'Checking out'
-}stage(test){
+}stage('build'){
 	echo 'Testing'
-}stage(archiving){
+}stage('archiving'){
 	echo 'Archiving'
 }
 }
