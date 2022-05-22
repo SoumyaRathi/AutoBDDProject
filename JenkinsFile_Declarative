@@ -1,0 +1,22 @@
+
+pipeline{
+
+agent any
+stages{
+
+stage('checkout'){
+	steps{
+		echo 'Checking out'
+	}
+}stage('test'){
+	steps{
+		echo 'Testing
+	}
+}stage('archiving'){
+	steps{
+		echo 'Archiving'
+	}
+}
+
+}
+}
