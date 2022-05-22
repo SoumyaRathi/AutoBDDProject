@@ -2,7 +2,7 @@ node{
 stage('checkout'){
 	echo 'Checking out'
 }stage('test'){
-	echo 'Testing
+	echo 'Testing'
 }stage('archiving'){
 	echo 'Archiving'
 }
