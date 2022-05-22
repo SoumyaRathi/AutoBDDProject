@@ -30,12 +30,5 @@ stage('archiving'){
 
 }
 
-post {
-	always {
-		echo 'Pipeline Finished'
-		step([$class: 'JUnitResultArchiver', 'testResults: '**/target/surefire-reports/Test*.xml'])
 
-	}
-
-}
 }
