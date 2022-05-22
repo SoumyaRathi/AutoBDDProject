@@ -1,4 +1,4 @@
-node('built-in'){
+node('built-in node'){
 stage('checkout'){
 	echo 'Checking out'
 }stage('test'){
